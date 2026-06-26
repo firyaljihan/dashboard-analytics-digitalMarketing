@@ -1,0 +1,9 @@
+Actual,Predicted,Value,Model
+Low,Low,22,Logistic Regression
+Low,High,160,Logistic Regression
+High,Low,29,Logistic Regression
+High,High,189,Logistic Regression
+Low,Low,35,Bernoulli Naive Bayes
+Low,High,147,Bernoulli Naive Bayes
+High,Low,46,Bernoulli Naive Bayes
+High,High,172,Bernoulli Naive Bayes
