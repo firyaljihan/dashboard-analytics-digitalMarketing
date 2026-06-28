@@ -343,7 +343,7 @@ elif menu == "Prediction Engine":
         if prediction == 1:
             st.success("STATUS: OPTIMAL")
             st.markdown(f"""
-            **KLASTER PERFORMA TINGGI (High Engagement)**
+            **KLASTER PERFORMA TINGGI**
             
             Berdasarkan kalkulasi matriks probabilitas model, kombinasi atribut konten yang Anda masukkan diproyeksikan memiliki peluang besar untuk mencapai **penyerapan audiens yang masif (interaksi dan jangkauan di atas rata-rata)** pada topik **{topic}**.
             
@@ -352,7 +352,7 @@ elif menu == "Prediction Engine":
         else:
             st.warning("STATUS: PERLU PENINJAUAN")
             st.markdown(f"""
-            **KLASTER PERFORMA STANDAR (Low/Standard Engagement)**
+            **KLASTER PERFORMA RENDAH**
             
             Model mendeteksi adanya risiko **kejenuhan interaksi (retensi audiens cenderung pasif)** jika kombinasi topik **{topic}** dipaksakan rilis menggunakan format **{content_type}** pada platform **{platform}**.
             
